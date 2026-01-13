@@ -1,0 +1,197 @@
+:root {
+    --zolty: #FAC748;
+    --Ghost: #E5E6EB;
+    --Nieb: #027DE5;
+    --Fiol: #493FA7;
+    --Gray: #1B2021;
+    --Black: #000000;
+    --Fafa: #FAFAFA;
+    --back: #645E9D;
+}
+
+body {
+    display: flex;
+    width: 1900px;
+    background-color: #000000;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.Nav {
+    display: flex;
+    background-color: brown;
+    width: 100%;
+}
+
+.Lpodnav {
+    display: flex;
+    background-color: var(--Fiol);
+    width: 50%;
+    font-size: larger;
+    justify-content: center;
+}
+
+.Ppodnav {
+    display: flex;
+    background-color: var(--Ghost);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Middle {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    background: url(497664172-8d6abdd9-8198-4ef8-8d58-16285fd766b4.svg), var(--back);
+    width: 70%;
+    height: 800px;
+    justify-content: center;
+}
+.ImieninyTXT{
+    color: var(--Fafa);
+}
+.Date{
+    color: #FAFAFA;
+    font-family: Arial;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.Rok{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 370px;
+}
+button{
+    width: 80px;
+    height: 54px;
+    background-color: #FAC748;
+}
+.Date2{
+    height: 50px;
+    width: 250px;
+}
+.Zmiana{
+    width: 40px;
+    height: 40px;
+}
+.Dzien{
+    width: 360px;
+    height: 450px;
+    background-color: #FAC748;
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.W_dniu{
+    text-align: center;
+    color: #000000;
+    width: 360px;
+    height: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 20px;
+}
+.Mdata{
+    background-color: #FAFAFA;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Miesiac{
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+}
+.Styczen{
+    margin: 20px;
+}
+.Dzien2{
+    color: #000000;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+.Cos{
+    margin: 0;
+}
+.Tydzien{
+    color: #000000;
+    text-align: center;
+}
+.Wtorek{
+    margin: 20px;
+}
+.Imiona{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Imieniny{
+    color: #000000;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.Maja{
+    margin: 0;
+}
+.Imiona2{
+    color: #000000;
+    font-size: 20px;
+}
+
+.Boczek {
+    display: flex;
+    background-color: var(--Fiol);
+    flex-direction: column;
+    width: 30%;
+    height: 800px;
+}
+.Calendar{
+    display: flex;
+    margin-left: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Gray);
+    width: 100%;
+    height: 43px;
+    color: var(--Fafa);
+}
+.Lfoot{
+    display: flex;
+    width: 69.5%;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.Pfoot{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    width: 260px;
+}
+
+.IMGfoot{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
